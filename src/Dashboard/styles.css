@@ -1,0 +1,12 @@
+table{
+    border: 0.5px solid black;
+  }
+  th{
+      color: rgb(3, 2, 2);
+      
+  }
+
+  .gap{
+      margin-top: 66px;
+      margin-bottom: 67px;
+  }

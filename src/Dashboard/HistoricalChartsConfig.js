@@ -8,7 +8,7 @@ export default function HistoricalChartsConfig(dateArray,historicalArray){
   },
 
       title: {
-        text: 'Historical Cumulative Returns'
+        text: ''
       },
     
       subtitle: {
@@ -47,7 +47,10 @@ export default function HistoricalChartsConfig(dateArray,historicalArray){
     
       series: [{
         name: 'Historical Cumulative Returns',
-        data: historicalArray}],
+        data: historicalArray,
+        color:'green'
+      
+      }],
     
       responsive: {
         rules: [{

@@ -12,21 +12,25 @@ import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles({
     root: {
     minWidth: 275,
-    color:"#003366",
+    color:"#008080",
+    fontFamily:"Roboto"
     
     },
     title: {
       fontSize: 14,
-      color:"green",
+      color:"#5072A7",
+      fontFamily:"Roboto"
     },
     pos: {
-      color:"black",
+      color:"#662d91",
       fontSize: 14,
+      fontFamily:"Roboto"
     },
     extra:{
-        color:"#CC5500",
+        color:"#8DA399",
         justifySelf:"right",
         fontSize: 14,
+        fontFamily:"Roboto"
     }
   });
 
@@ -53,11 +57,10 @@ export default function FundTile({fundKey}){
                             <div class="col s12 m12">
                                 <Card className={classes.root}>
                                     <CardContent>
-                                        <Typography variant="h5" component="h2" >
-                                            {fund.metaData.fundHouse}
+                                        <Typography className={classes.title}>
+                                        <h5>{fund.metaData.fundHouse}</h5>
                                         </Typography>
-
-                                        <Typography className={classes.title} gutterBottom>
+                                        <Typography className={classes.root}>
                                             <div className="row">
                                                 <div className="col">
                                                     {fund.metaData.schemeType}

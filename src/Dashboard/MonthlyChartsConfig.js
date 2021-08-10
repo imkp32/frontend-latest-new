@@ -8,7 +8,7 @@ export default function MonthlyChartsConfig(monthArray,returnArray){
             }
         },
         title: {
-            text: 'Last 3 Months Returns'
+            text: ''
         },
         xAxis: {
             categories: monthArray['0']

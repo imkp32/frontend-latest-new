@@ -6,3 +6,12 @@ nav{
     width: 100%; /* Full width */
     z-index: 99;
 }
+
+
+.bold-and-red{
+    color: red;
+}
+
+.green{
+    color :green;
+}
